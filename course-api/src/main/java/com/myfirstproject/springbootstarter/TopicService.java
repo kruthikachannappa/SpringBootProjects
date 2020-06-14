@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 public class TopicService {
 
 	private List<Topic> topics= new ArrayList<>(Arrays.asList(
-			new Topic("1","Kruthika","muddu" ),
-			new Topic("2","Gokul","appu" ),
-			new Topic("3","Love","mudduNappu")
+			new Topic("1","Kruthika","UMKC" ),
+			new Topic("2","Hemanth","SIRMV" ),
+			new Topic("3","BrotherNSister","Partners in crime")
 				));
 	
 	public List<Topic> getAllTopics(){
